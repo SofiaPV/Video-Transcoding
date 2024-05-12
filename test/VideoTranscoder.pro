@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        interpolator.cpp \
         main.cpp
 
 QT += widgets
@@ -17,3 +18,6 @@ LIBS += \
    -lopencv_imgproc \
    -lopencv_video \
    -lopencv_videoio
+
+HEADERS += \
+    interpolator.h
